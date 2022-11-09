@@ -45,7 +45,7 @@ public class Main {
                 } else {
                     throw new IllegalArgumentException("Диапазон чисел от 1 до 10!!!");
                 }
-                if(yes) {
+                if (yes) {
                     System.out.println(Conv.intToRoman(result));
                 }
                 else {
