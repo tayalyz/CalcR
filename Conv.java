@@ -2,7 +2,7 @@ import java.util.TreeMap;
 
 class Conv {
     static TreeMap<Character, Integer> romanKeyMap = new TreeMap<>();
-    TreeMap<Integer, String> arabianKeyMap = new TreeMap<>();
+    static TreeMap<Integer, String> arabianKeyMap = new TreeMap<>();
 
     Conv() {
         romanKeyMap.put('I', 1);
@@ -32,7 +32,7 @@ class Conv {
         return romanKeyMap.containsKey(number.charAt(0));
     }
 
-    String intToRoman(int number) {
+    static String intToRoman(int number) {
         StringBuilder roman = new StringBuilder();
         int arabianKey;
         do {
