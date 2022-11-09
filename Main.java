@@ -7,7 +7,6 @@ public class Main {
         System.out.println(calc(scanner.nextLine()));
     }
     public static String calc(String input) {
-        Conv convert = new Conv();
         String[] str = input.split(" ");
         String s = "";
 
@@ -47,7 +46,7 @@ public class Main {
                     throw new IllegalArgumentException("Диапазон чисел от 1 до 10!!!");
                 }
                 if(yes) {
-                    System.out.println(convert.intToRoman(result));
+                    System.out.println(Conv.intToRoman(result));
                 }
                 else {
                     System.out.println(result);
