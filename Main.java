@@ -9,7 +9,7 @@ public class Main {
     public static String calc(String input) {
         Conv convert = new Conv();
         String[] str = input.split(" ");
-        String s = "";
+        String x = "";
 
         if (str.length < 4) {
             if (Conv.isRoman(str[0]) == Conv.isRoman(str[2])) {
@@ -58,6 +58,6 @@ public class Main {
         } else {
             throw new NumberFormatException("Слишком длинное выражение!");
         }
-        return s;
+        return x;
     }
 }
