@@ -10,13 +10,7 @@ class Conv {
         romanKeyMap.put('X', 10);
         romanKeyMap.put('L', 50);
         romanKeyMap.put('C', 100);
-        romanKeyMap.put('D', 500);
-        romanKeyMap.put('M', 1000);
-
-        arabianKeyMap.put(1000, "M");
-        arabianKeyMap.put(900, "CM");
-        arabianKeyMap.put(500, "D");
-        arabianKeyMap.put(400, "CD");
+        
         arabianKeyMap.put(100, "C");
         arabianKeyMap.put(90, "XC");
         arabianKeyMap.put(50, "L");
